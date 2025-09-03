@@ -78,6 +78,17 @@ export default function Home() {
         <section id="services" className="py-16 sm:py-24 border-t" style={{borderColor: 'var(--border)'}}>
           <div className="mx-auto max-w-3xl">
             <h2 className="text-2xl sm:text-3xl font-semibold tracking-tight">Expert Witness Services</h2>
+            <div className="mt-6">
+              <h3 className="text-xl font-semibold tracking-tight">Offering the current services:</h3>
+              <ul className="mt-3 list-disc pl-6" style={{color: 'var(--secondary)'}}>
+                <li>Psychotherapy (online and face to face)</li>
+                <li>Expert Court reports</li>
+              </ul>
+              <h3 className="mt-6 text-xl font-semibold tracking-tight">Coming soon:</h3>
+              <p className="mt-3" style={{color: 'var(--secondary)'}}>
+                Psychiatric consultations, diagnostic assessments and treatment
+              </p>
+            </div>
             <p className="mt-4" style={{color: 'var(--secondary)'}}>
               Dr Saoud provides high-quality psychiatric reports and expert testimony for Crown Courts, Parole Boards, and tribunals across the UK. His services cover:
             </p>
